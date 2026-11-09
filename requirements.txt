@@ -1,0 +1,15 @@
+streamlit
+pandas
+langchain-core
+langchain-google-genai
+langchain-community
+chromadb
+reportlab
+pydanticstreamlit
+pandas
+langchain-core
+langchain-google-genai
+langchain-community
+chromadb
+reportlab
+pydantic
