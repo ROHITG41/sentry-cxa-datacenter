@@ -18,7 +18,7 @@ from typing import Dict, Any, List, Optional, Tuple
 from pydantic import BaseModel, Field
 
 # ---------------------------------------------------------
-# PAGE CONFIGURATION & STYLING
+# 1. PAGE CONFIGURATION & STYLING
 # ---------------------------------------------------------
 st.set_page_config(
     page_title="Sentry-MAS | Data Center Multi-Agent Arbiter",
@@ -111,7 +111,7 @@ CUSTOM_CSS = """
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
 # ---------------------------------------------------------
-# HELPER: GENAI TEXT EXTRACTION & INITIALIZATION
+# 2. HELPER: GENAI TEXT EXTRACTION & INITIALIZATION
 # ---------------------------------------------------------
 def extract_text(response) -> str:
     """Safely unpacks text from Google GenAI SDK response objects."""
@@ -146,7 +146,7 @@ def get_genai_client(api_key: str):
             return None, "none"
 
 # ---------------------------------------------------------
-# STRUCTURED PYDANTIC DATA CONTRACTS
+# 3. STRUCTURED PYDANTIC DATA CONTRACTS
 # ---------------------------------------------------------
 class TelemetryPayload(BaseModel):
     test_id: str = Field(description="Unique commissioning or operational audit tracking ID")
@@ -175,7 +175,7 @@ class DeterministicAuditMetrics(BaseModel):
     breach_reasons: List[str]
 
 # ---------------------------------------------------------
-# DETERMINISTIC PHYSICS & MATHEMATICAL ARBITRATION GATES
+# 4. DETERMINISTIC PHYSICS & MATHEMATICAL ARBITRATION GATES
 # ---------------------------------------------------------
 def calculate_deterministic_physics(data: TelemetryPayload) -> DeterministicAuditMetrics:
     """
@@ -275,7 +275,7 @@ def calculate_deterministic_physics(data: TelemetryPayload) -> DeterministicAudi
     )
 
 # ---------------------------------------------------------
-# DOMAIN KNOWLEDGE & NORMATIVE STANDARDS RETRIEVAL
+# 5. DOMAIN KNOWLEDGE & NORMATIVE STANDARDS RETRIEVAL
 # ---------------------------------------------------------
 def retrieve_engineering_standards(stage: str) -> str:
     """Retrieves authoritative standards context with fallback grounding."""
@@ -301,7 +301,7 @@ def retrieve_engineering_standards(stage: str) -> str:
     return grounding_corpus.get(stage, grounding_corpus["LEVEL5_IST"])
 
 # ---------------------------------------------------------
-# COGNITIVE MULTI-AGENT ORCHESTRATION LAYER (GEMINI)
+# 6. COGNITIVE MULTI-AGENT ORCHESTRATION LAYER (GEMINI)
 # ---------------------------------------------------------
 def run_multi_agent_consensus(
     api_key: str, 
@@ -538,7 +538,7 @@ Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)
 """
 
 # ---------------------------------------------------------
-# MULTI-STAGE REGEX SANITIZER & REPORTLAB PDF GENERATION
+# 7. MULTI-STAGE REGEX SANITIZER & REPORTLAB PDF GENERATION
 # ---------------------------------------------------------
 def clean_and_format_for_reportlab(text: str) -> List[Tuple[str, bool]]:
     """
@@ -658,11 +658,11 @@ def generate_sanitized_pdf(
 ) -> bytes:
     """
     Generates an executive-ready PDF report strictly sanitized against raw LaTeX math syntax, 
-    markdown table borders, and backticks. All formulas in clean alphanumeric Unicode.
+    markdown table borders, and backticks. Employs PageBreak to guarantee zero orphan headers.
     """
     from reportlab.lib.pagesizes import letter
     from reportlab.lib import colors
-    from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, HRFlowable
+    from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, HRFlowable, PageBreak
     from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
     import io
 
@@ -810,7 +810,9 @@ def generate_sanitized_pdf(
         ('PADDING', (0,0), (-1,-1), 6),
     ]))
     story.append(agent_tbl)
-    story.append(Spacer(1, 10))
+    
+    # HARD PAGE BREAK: Guarantees Section 3 starts cleanly at the top of Page 2 (No Orphan Header)
+    story.append(PageBreak())
 
     # Section 3: Arbiter Determination Accord (Parsed through Multi-Stage Sanitizer)
     story.append(Paragraph("3. Deterministic Arbiter Determination Accord", h2_style))
@@ -851,7 +853,7 @@ def generate_sanitized_pdf(
     return pdf_bytes
 
 # ---------------------------------------------------------
-# STREAMLIT USER INTERFACE (SIDEBAR & CORE WORKFLOW)
+# 8. STREAMLIT USER INTERFACE (SIDEBAR & CORE WORKFLOW)
 # ---------------------------------------------------------
 def main():
     st.markdown('<p class="main-header">⚡ SENTRY-MAS: DATA CENTER MULTI-AGENT ARBITER</p>', unsafe_allow_html=True)
