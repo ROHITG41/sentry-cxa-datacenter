@@ -4,8 +4,13 @@ Hyperscale Data Center Infrastructure & Systems Engineering Suite - Post 3 Capst
 
 Lead Systems Architect: Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)
 Domain: Data Center Infrastructure & Systems Engineering Specialist | Forensic Project Controls & Contract Governance
-Contact: grohit41@gmail.com | +91-8826991440 | LinkedIn: ROHITG41 (linkedin.com/in/rohitg41)
+Contact: grohit41@gmail.com | LinkedIn: ROHITG41 (linkedin.com/in/rohitg41)
 GitHub: https://github.com/ROHITG41/sentry-cxa-datacenter
+with st.expander("ℹ️ System Context & How to Use This Engine", expanded=False):
+    st.markdown(
+        "**What it does:** Arbitrates competing Data Center cooling mandates between **Facilities Ops** (Tier IV uptime) and **Sustainability** (PUE compression) using deterministic CPU thermodynamics + multi-agent AI.\n\n"
+        "**How to use:** (1) Select a **Lifecycle Stage Preset** in the left sidebar, (2) adjust plant load, rack density, or $\Delta P$ parameters, and (3) inspect the **Consensus Accord** or download the **Audit NCR PDF**."
+    )
 """
 
 import streamlit as st
