@@ -6,11 +6,6 @@ Lead Systems Architect: Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)
 Domain: Data Center Infrastructure & Systems Engineering Specialist | Forensic Project Controls & Contract Governance
 Contact: grohit41@gmail.com | LinkedIn: ROHITG41 (linkedin.com/in/rohitg41)
 GitHub: https://github.com/ROHITG41/sentry-cxa-datacenter
-with st.expander("ℹ️ System Context & How to Use This Engine", expanded=False):
-    st.markdown(
-        "**What it does:** Arbitrates competing Data Center cooling mandates between **Facilities Ops** (Tier IV uptime) and **Sustainability** (PUE compression) using deterministic CPU thermodynamics + multi-agent AI.\n\n"
-        "**How to use:** (1) Select a **Lifecycle Stage Preset** in the left sidebar, (2) adjust plant load, rack density, or $\Delta P$ parameters, and (3) inspect the **Consensus Accord** or download the **Audit NCR PDF**."
-    )
 """
 
 import streamlit as st
@@ -54,7 +49,7 @@ CUSTOM_CSS = """
         border-left: 4px solid #102C57;
         padding: 12px 18px;
         border-radius: 4px;
-        margin-bottom: 22px;
+        margin-bottom: 16px;
         font-size: 0.88rem;
         color: #334155;
         line-height: 1.5;
@@ -747,7 +742,7 @@ def generate_sanitized_pdf(
     author_text = (
         "<b>Lead Systems Architect:</b> Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)<br/>"
         "<b>Professional Domain:</b> Data Center Infrastructure & Systems Engineering Specialist | Forensic Project Controls<br/>"
-        "<b>Channels:</b> grohit41@gmail.com | +91-8826991440 | LinkedIn: ROHITG41 (linkedin.com/in/rohitg41)<br/>"
+        "<b>Channels:</b> grohit41@gmail.com | LinkedIn: ROHITG41 (linkedin.com/in/rohitg41)<br/>"
         "<b>Central Repository:</b> https://github.com/ROHITG41/sentry-cxa-datacenter"
     )
     auth_table = Table([[Paragraph(author_text, meta_style)]], colWidths=[520])
@@ -868,10 +863,18 @@ def main():
     <div class="provenance-card">
         <b>Lead Systems Architect:</b> Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)<br/>
         <b>Professional Domain:</b> Data Center Infrastructure & Systems Engineering Specialist | Forensic Project Controls & Contract Governance<br/>
-        <b>Contact & Channels:</b> grohit41@gmail.com | +91-8826991440 | LinkedIn: ROHITG41 (linkedin.com/in/rohitg41)<br/>
+        <b>Contact & Channels:</b> grohit41@gmail.com | LinkedIn: ROHITG41 (linkedin.com/in/rohitg41)<br/>
         <b>Central Repository:</b> <a href="https://github.com/ROHITG41/sentry-cxa-datacenter" target="_blank">github.com/ROHITG41/sentry-cxa-datacenter</a>
     </div>
     """, unsafe_allow_html=True)
+
+    st.info(
+        "**Operational Context & Quick Guide:** This engine eliminates manual control-loop deadlocks between competing "
+        "**Facilities Operations** (Tier IV continuous cooling) and **Energy & Sustainability** (PUE compression) mandates. "
+        "Select a **Lifecycle Stage Preset** in the left sidebar or adjust plant load, rack density, and loop differential pressure (DP) "
+        "parameters below to observe how the Multi-Agent Arbiter and Deterministic CPU Interlock synthesize an auditable Consensus Accord "
+        "or Engineering Non-Conformance Report (NCR)."
+    )
 
     with st.sidebar:
         st.subheader("🔑 Engine Configuration")
