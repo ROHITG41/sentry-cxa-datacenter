@@ -1077,4 +1077,28 @@ def main():
         st.caption("PDF generated with ReportLab engine strictly sanitized against raw LaTeX math syntax, unescaped markdown delimiters, and backticks.")
 
 if __name__ == "__main__":
-    main()
+    main
+
+# --- EXECUTIVE PORTFOLIO FOOTER ---
+st.divider()
+st.markdown(
+    """
+    <div style="text-align: center; color: #475569; font-size: 0.85rem; padding: 10px 0;">
+        <p style="margin-bottom: 4px;">
+            <strong>Architect:</strong> Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV) | 
+            Mission-Critical Infrastructure &amp; Applied AI Solutions
+        </p>
+        <p style="margin-bottom: 4px;">
+            <strong>Enterprise Advisory &amp; Custom Architecture:</strong> 
+            Available for technical consulting &amp; custom agentic workflows &bull; 
+            <a href="https://www.linkedin.com/in/rohitg41" target="_blank" style="color: #2563EB; text-decoration: none;">LinkedIn</a> | 
+            <a href="mailto:grohit41@gmail.com" style="color: #2563EB; text-decoration: none;">grohit41@gmail.com</a>
+        </p>
+        <p style="font-size: 0.78rem; color: #64748B; margin-top: 6px;">
+            <em>Dataset Note: Independent engineering demonstration validated on representative, anonymized datasets.</em><br>
+            Copyright &copy; 2026 Rohit Kumar. All Rights Reserved.
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
