@@ -3,7 +3,7 @@ SENTRY-MAS: AUTONOMOUS SHARED CONSENSUS MULTI-AGENT OPERATIONAL ARBITRATION ENGI
 Hyperscale Data Center Infrastructure & Systems Engineering Suite - Post 3 Capstone
 
 Lead Systems Architect: Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)
-Domain: Mission-Critical Infrastructure Infrastructure & Systems Engineering Specialist | Forensic Project Controls & Contract Governance
+Domain: Mission-Critical Infrastructure & Systems Engineering Specialist | Forensic Project Controls & Contract Governance
 Contact: grohit41@gmail.com | LinkedIn: ROHITG41 (linkedin.com/in/rohitg41)
 GitHub: https://github.com/ROHITG41/sentry-cxa-datacenter
 """
