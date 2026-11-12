@@ -1,9 +1,9 @@
 # Sentry-MAS: Autonomous Data Center Multi-Agent Arbiter & CxA Suite
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rohitkumarg-fidic-engine.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sentry-mas-arbiter.streamlit.app)
 ![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-![Vector DB](https://img.shields.io/badge/ChromaDB-Persistent%20Disk-D97706)
-![Cognitive LLM](https://img.shields.io/badge/Cognitive%20LLM-gemini--3.5--flash-7C3AED)
+![Validation](https://img.shields.io/badge/Validation-Pydantic%20v2%20%7C%20ReportLab-E92063)
+![Cognitive LLM](https://img.shields.io/badge/Cognitive%20LLM-gemini--3.8--flash-7C3AED)
 ![Architecture](https://img.shields.io/badge/Architecture-Autonomous%20Multi--Agent-059669)
 
 > **Dataset & Confidentiality Note:** This application is an independent engineering architecture demonstration validated on representative, anonymized project datasets.
@@ -11,7 +11,7 @@
 ---
 
 ### Executive Problem Statement
-In high-density data centers (60 to 100+ kW/rack), two operational mandates constantly collide:
+In high-density data centers ($60\text{ to }100+\text{ kW/rack}$), two operational mandates constantly collide:
 * **Facilities & Operations:** Defends zero-downtime reliability, Uptime Tier IV continuous cooling hold-up, high loop differential pressure ($\Delta P \ge 2.2\text{ bar}$), and cold supply water ($7\text{–}9^\circ\text{C}$).
 * **Energy & Sustainability:** Targets Power Usage Effectiveness (PUE) compression, free-cooling hours, dynamic pressure resets, and elevated supply temperatures ($14\text{–}18^\circ\text{C}$).
 
@@ -85,14 +85,13 @@ flowchart TD
 
 ### Technology Stack
 * **Runtime & UI:** Python 3.12, Streamlit Community Cloud
-* **Cognitive Engine:** Google GenAI SDK (`gemini-2.5-flash` / `gemini-3.8-flash`)
+* **Cognitive Engine:** Google GenAI SDK (`gemini-3.8-flash`)
 * **Validation & Reporting:** Pydantic v2, ReportLab PDF Engine, NumPy
 
 ### Author & Architect
 **Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)**  
 Cross-Technology Technical Architect | Mission-Critical Infrastructure & Applied AI Solutions  
 [LinkedIn](https://www.linkedin.com/in/rohitg41) | [Live Application](https://sentry-mas-arbiter.streamlit.app)
-
 
 ---
 
