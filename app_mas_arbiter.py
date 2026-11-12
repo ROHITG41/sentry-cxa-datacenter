@@ -1077,7 +1077,7 @@ def main():
         st.caption("PDF generated with ReportLab engine strictly sanitized against raw LaTeX math syntax, unescaped markdown delimiters, and backticks.")
 
 if __name__ == "__main__":
-    main
+    main()
 
 # --- EXECUTIVE PORTFOLIO FOOTER ---
 st.divider()
