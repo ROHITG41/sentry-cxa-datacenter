@@ -741,7 +741,7 @@ def generate_sanitized_pdf(
     # Author Provenance Card
     author_text = (
         "<b>Lead Systems Architect:</b> Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)<br/>"
-        "<b>Professional Domain:</b> Data Center Infrastructure & Systems Engineering Specialist | Forensic Project Controls<br/>"
+        "<b>Professional Domain:</b> Mission-Critical Infrastructure & Systems Engineering Specialist | Forensic Project Controls<br/>"
         "<b>Channels:</b> grohit41@gmail.com | LinkedIn: ROHITG41 (linkedin.com/in/rohitg41)<br/>"
         "<b>Central Repository:</b> https://github.com/ROHITG41/sentry-cxa-datacenter"
     )
@@ -862,7 +862,7 @@ def main():
     st.markdown("""
     <div class="provenance-card">
         <b>Lead Systems Architect:</b> Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)<br/>
-        <b>Professional Domain:</b> Data Center Infrastructure & Systems Engineering Specialist | Forensic Project Controls & Contract Governance<br/>
+        <b>Professional Domain:</b> Mission-Critical Infrastructure & Systems Engineering Specialist | Forensic Project Controls & Contract Governance<br/>
         <b>Contact & Channels:</b> grohit41@gmail.com | LinkedIn: ROHITG41 (linkedin.com/in/rohitg41)<br/>
         <b>Central Repository:</b> <a href="https://github.com/ROHITG41/sentry-cxa-datacenter" target="_blank">github.com/ROHITG41/sentry-cxa-datacenter</a>
     </div>
