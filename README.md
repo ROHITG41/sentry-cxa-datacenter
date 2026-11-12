@@ -1,8 +1,10 @@
 # Sentry-MAS: Autonomous Data Center Multi-Agent Arbiter & CxA Suite
 
-[![Live App](https://img.shields.io/badge/Live%20Application-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit)](https://sentry-mas-arbiter.streamlit.app)
-[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Pydantic v2](https://img.shields.io/badge/Validation-Pydantic%20v2-E92063?style=for-the-badge)](https://docs.pydantic.dev/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rohitkumarg-fidic-engine.streamlit.app)
+![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![Vector DB](https://img.shields.io/badge/ChromaDB-Persistent%20Disk-D97706)
+![Cognitive LLM](https://img.shields.io/badge/Cognitive%20LLM-gemini--3.5--flash-7C3AED)
+![Architecture](https://img.shields.io/badge/Architecture-Autonomous%20Multi--Agent-059669)
 
 > **Dataset & Confidentiality Note:** This application is an independent engineering architecture demonstration validated on representative, anonymized project datasets.
 
@@ -97,3 +99,9 @@ Cross-Technology Technical Architect | Mission-Critical Infrastructure & Applied
 ### Enterprise Advisory & Custom Architecture
 Available for technical consulting, custom agentic workflow development, and private enterprise deployments.  
 **Connect:** [LinkedIn](https://www.linkedin.com/in/rohitg41) | **Email:** `grohit41@gmail.com`
+
+---
+
+### Intellectual Property & Licensing
+**Copyright © 2026 Rohit Kumar. All Rights Reserved.**  
+This repository and its source code are published solely for technical portfolio evaluation and architectural demonstration. Unauthorized copying, redistribution, or commercial deployment is prohibited without prior written consent.
