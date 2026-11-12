@@ -90,3 +90,10 @@ flowchart TD
 **Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)**  
 Cross-Technology Technical Architect | Mission-Critical Infrastructure & Applied AI Solutions  
 [LinkedIn](https://www.linkedin.com/in/rohitg41) | [Live Application](https://sentry-mas-arbiter.streamlit.app)
+
+
+---
+
+### Enterprise Advisory & Custom Architecture
+Available for technical consulting, custom agentic workflow development, and private enterprise deployments.  
+**Connect:** [LinkedIn](https://www.linkedin.com/in/rohitg41) | **Email:** `grohit41@gmail.com`
