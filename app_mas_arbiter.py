@@ -2,7 +2,7 @@
 SENTRY-MAS: AUTONOMOUS SHARED CONSENSUS MULTI-AGENT OPERATIONAL ARBITRATION ENGINE
 Hyperscale Data Center Infrastructure & Systems Engineering Suite - Post 3 Capstone
 
-Lead Systems Architect: Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)
+Lead Systems Architect: Rohit Kumar, PMP, CEng (India), CEA, FSEr (TÜV)
 Domain: Mission-Critical Infrastructure & Systems Engineering Specialist | Forensic Project Controls & Contract Governance
 Contact: grohit41@gmail.com | LinkedIn: ROHITG41 (linkedin.com/in/rohitg41)
 GitHub: https://github.com/ROHITG41/sentry-cxa-datacenter
@@ -533,7 +533,7 @@ FACILITY RATING: UPTIME TIER IV / RATED-4 CONTINUOUS COOLING INFRASTRUCTURE
    - Deterministic Operational Compromise Index (OCI) must achieve >= 75.0 under 100% full-load step transient testing.
 
 ISSUED BY: Lead Systems Architect & Infrastructure Specialist
-Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)
+Rohit Kumar, PMP, CEng (India), CEA, FSEr (TÜV)
 ================================================================================
 """
 
@@ -740,7 +740,7 @@ def generate_sanitized_pdf(
 
     # Author Provenance Card
     author_text = (
-        "<b>Lead Systems Architect:</b> Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)<br/>"
+        "<b>Lead Systems Architect:</b> Rohit Kumar, PMP, CEng (India), CEA, FSEr (TÜV)<br/>"
         "<b>Professional Domain:</b> Mission-Critical Infrastructure & Systems Engineering Specialist | Forensic Project Controls<br/>"
         "<b>Channels:</b> grohit41@gmail.com | LinkedIn: ROHITG41 (linkedin.com/in/rohitg41)<br/>"
         "<b>Central Repository:</b> https://github.com/ROHITG41/sentry-cxa-datacenter"
@@ -861,7 +861,7 @@ def main():
     
     st.markdown("""
     <div class="provenance-card">
-        <b>Lead Systems Architect:</b> Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)<br/>
+        <b>Lead Systems Architect:</b> Rohit Kumar, PMP, CEng (India), CEA, FSEr (TÜV)<br/>
         <b>Professional Domain:</b> Mission-Critical Infrastructure & Systems Engineering Specialist | Forensic Project Controls & Contract Governance<br/>
         <b>Contact & Channels:</b> grohit41@gmail.com | LinkedIn: ROHITG41 (linkedin.com/in/rohitg41)<br/>
         <b>Central Repository:</b> <a href="https://github.com/ROHITG41/sentry-cxa-datacenter" target="_blank">github.com/ROHITG41/sentry-cxa-datacenter</a>
@@ -1093,7 +1093,7 @@ st.markdown(
     """
     <div style="text-align: center; color: #475569; font-size: 0.85rem; padding: 10px 0;">
         <p style="margin-bottom: 4px;">
-            <strong>Architect:</strong> Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV) | 
+            <strong>Architect:</strong> Rohit Kumar, PMP, CEng (India), CEA, FSEr (TÜV) | 
             Mission-Critical Infrastructure &amp; Applied AI Solutions
         </p>
         <p style="margin-bottom: 4px;">
