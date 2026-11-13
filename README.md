@@ -89,7 +89,7 @@ flowchart TD
 * **Validation & Reporting:** Pydantic v2, ReportLab PDF Engine, NumPy
 
 ### Author & Architect
-**Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV)**  
+**Rohit Kumar, PMP, CEng (India), CEA, FSEr (TÜV)**  
 Cross-Technology Technical Architect | Mission-Critical Infrastructure & Applied AI Solutions  
 [LinkedIn](https://www.linkedin.com/in/rohitg41) | [Live Application](https://sentry-mas-arbiter.streamlit.app)
 
