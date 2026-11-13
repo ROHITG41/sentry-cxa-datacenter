@@ -324,7 +324,7 @@ def generate_clash_pdf(results, epms, vfd, facility_tag, audit_memo):
     prov_data = [
         [
             Paragraph("Lead Systems Architect & Author:", meta_label),
-            Paragraph("<b>ROHIT KUMAR</b>, PMP, CEng, CEA, FSEr (TUV)", meta_val),
+            Paragraph("<b>ROHIT KUMAR</b>, PMP, CEng (India), CEA, FSEr (TUV)", meta_val),
             Paragraph("Direct Inquiries:", meta_label),
             Paragraph("+91-8826991440 | grohit41@gmail.com", meta_val)
         ],
@@ -443,12 +443,12 @@ def generate_clash_pdf(results, epms, vfd, facility_tag, audit_memo):
         canvas.drawString(36, 756, "SENTRY-CLASH: MULTI-DISCIPLINARY INTERFACE CLASH & DISCREPANCY AUDIT")
         canvas.setFont("Helvetica", 7)
         canvas.setFillColor(colors.HexColor("#64748B"))
-        canvas.drawRightString(576, 756, "Systems Specialist: Rohit Kumar, PMP, CEng")
+        canvas.drawRightString(576, 756, "Systems Specialist: Rohit Kumar, PMP, CEng (India)")
         canvas.setStrokeColor(colors.HexColor("#CBD5E1"))
         canvas.setLineWidth(0.5)
         canvas.line(36, 750, 576, 750)
         canvas.line(36, 42, 576, 42)
-        canvas.drawString(36, 31, "Confidential | Rohit Kumar, PMP, CEng | grohit41@gmail.com | LinkedIn: ROHITG41")
+        canvas.drawString(36, 31, "Confidential | Rohit Kumar, PMP, CEng (India) | grohit41@gmail.com | LinkedIn: ROHITG41")
         canvas.drawRightString(576, 31, f"Page {doc_obj.page} | IEEE 446 & IEC 61800-3 Coordinated")
         canvas.restoreState()
 
@@ -687,7 +687,7 @@ st.markdown(
     """
     <div style="text-align: center; color: #475569; font-size: 0.85rem; padding: 10px 0;">
         <p style="margin-bottom: 4px;">
-            <strong>Architect:</strong> Rohit Kumar, PMP, CEng, CEA, FSEr (TÜV) | 
+            <strong>Architect:</strong> Rohit Kumar, PMP, CEng (India), CEA, FSEr (TÜV) | 
             Mission-Critical Infrastructure &amp; Applied AI Solutions
         </p>
         <p style="margin-bottom: 4px;">
